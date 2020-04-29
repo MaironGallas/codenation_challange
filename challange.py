@@ -9,6 +9,8 @@ def julio_cesar_decoder(number, code_text):
         char = ord(letter)
         if char == 32:
             ascii_number = 32
+        elif char == 44:
+            ascii_number = 44
         elif char == 46:
             ascii_number = 46
         elif (char - number) < 97:
